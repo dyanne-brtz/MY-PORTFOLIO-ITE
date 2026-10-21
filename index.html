@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="pin-page">
+
+    <main class="pin-container">
+        <div class="pin-card">
+            <p class="small-title">A PERSONAL PORTFOLIO</p>
+            <h1>Welcome to My World</h1>
+            <p class="description">
+                Enter your four-digit PIN to explore my portfolio.
+            </p>
+
+            <form id="pin-form">
+                <label for="pin-input">Enter Your PIN</label>
+                <input
+                    type="password"
+                    id="pin-input"
+                    name="pin"
+                    placeholder="••••"
+                    maxlength="4"
+                    inputmode="numeric"
+                    pattern="[0-9]{4}"
+                    autocomplete="off"
+                    required
+                >
+                <button type="submit" id="unlock-button">
+                    UNLOCK PORTFOLIO
+                </button>
+                <p id="pin-message" aria-live="polite"></p>
+            </form>
+
+            <p class="footer-text">
+                PRIVATE SPACE · PERSONAL PORTFOLIO
+            </p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
