@@ -389,3 +389,64 @@ body.light-mode .top-clock {
     border-bottom: 1px solid rgba(164, 22, 53, 0.2) !important;
     text-shadow: none;
 }
+
+.body {
+    background-image: url("background-dark.jpg") !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+body.light-mode {
+    background-image: url("background-light.jpg") !important;
+}
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+}
+
+.theme-toggle:hover {
+    background: var(--pink);
+    color: var(--black);
+    transform: scale(1.1);
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background: #650b20;
+    border: 1px solid #a41635;
+
+body.light-mode.pin-page {
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.8)),
+        url("background-light.jpg") !important;
+    background-color: #f4f4f9 !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+body.light-mode.pin-page {
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.8)),
+        url("background-light.jpg") !important;
+    background-color: #f4f4f9 !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+body.light-mode.pin-page .pin-card {
+    background: rgba(255, 255, 255, 0.95) !important;
+    border: 1px solid rgba(164, 22, 53, 0.3) !important;
+    box-shadow: 0 0 35px rgba(164, 22, 53, 0.15) !important;
+}
+
+body.light-mode.pin-page .pin-card h1,
+body.light-mode.pin-page .pin-card .small-title {
+    color: #1a1a1a !important;
+}
+
+body.light-mode.pin-page .pin-card .description,
+body.light-mo
